@@ -44,14 +44,14 @@ public class ArbolBinario {
 
     /**
      * Metod to order the tree 
-     * @param rot 
+     * @param raiz 
      * @return n/a
      */
-    public void InOrder( Node root ) {
-        if ( root != null ){
-            InOrder(root.left);
-            System.out.println(root.key);
-            InOrder(root.right);
+    public void InOrder( Node raiz ) {
+        if ( raiz != null ){
+            InOrder(raiz.left);
+            System.out.println(raiz.key);
+            InOrder(raiz.right);
         }
     }
     /**
