@@ -5,8 +5,8 @@ public abstract class Node {
     Node left;
     Node right;
 
-    public Node(ArrayList<String> item){ 
-        this.key = item; 
+    public Node(ArrayList<String> a){ 
+        this.key = a; 
         this.left = null;
         this.right = null; 
     }

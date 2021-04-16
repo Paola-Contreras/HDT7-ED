@@ -2,7 +2,7 @@
     Estructura de datos 
     Gabriela Paola Contreras Guerra
     Carné: 20213
-    The following class was made with the help of the platform GeekForGeeks*/
+    The following class was made with the help of the platform GeekForGeeks and a youtube video made by makigas*/
 
 // import
 import java.util.*;
@@ -43,7 +43,7 @@ public class ArbolBinario {
     }
 
     /**
-     * Metod to order the tree 
+     * Metod to order & show the tree 
      * @param raiz 
      * @return n/a
      */
